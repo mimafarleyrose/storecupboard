@@ -1,0 +1,24 @@
+.App {
+  background-image: url('./Background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:100vh;
+  width:100%;
+}
+.searchbox{
+  background-color: #DAB42B;
+  width:30%;
+  opacity: 0.5;
+  flex: 1;
+  height:100%;
+  text-align: center;
+  position: absolute;
+}
+
+.App h1 {
+  color:black;
+  font-family: Kosugi;
+  font-size: 2.5em;
+  position: relative;
+}
+

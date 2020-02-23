@@ -1,0 +1,38 @@
+button {
+    background-color: #607935; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: Kosugi;
+    opacity: 0.8;
+  }
+  
+button:hover {
+    background-color: white; 
+    color: #607935; 
+    border: 2px solid #607935;
+    font-family: Kosugi;
+  }
+
+input{
+    background-color: #607935; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Kosugi;  
+    opacity: 0.8;
+}
+::placeholder{
+    color:white;
+}
