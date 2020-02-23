@@ -9,9 +9,11 @@ class App extends React.Component{
     return (
         <>
         <div className='App'>
+            <div className='searchbar'>
               <h1>Store Cupboard</h1>
-              <SearchBar/>
-              <RecipeList/>
+                  <SearchBar/>
+                  <RecipeList/>
+            </div>
         </div>
       </>
     )

@@ -6,7 +6,7 @@ export class SearchBar extends React.Component{
     return (
       <>
         <input placeholder='ingredients...'></input>
-        <button>Search For Recipes</button>
+        <button>Search For Recipes!</button>
       </>
     )
   }
